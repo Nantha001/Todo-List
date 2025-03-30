@@ -1,0 +1,20 @@
+/* Write your CSS here */
+button {
+  color: #ff0b37;
+
+  font-size: 15px;
+  margin-left: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 30px;
+  border: 2px solid lightcoral;
+}
+li {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  font-size: 20px;
+}
