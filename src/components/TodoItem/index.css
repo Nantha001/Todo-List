@@ -9,6 +9,16 @@ button {
   height: 30px;
   border: 2px solid lightcoral;
 }
+
+@media (max-width: 768px) {
+  button {
+    font-size: 12px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+  }
+}
 li {
   display: flex;
   margin: 10px;
@@ -17,4 +27,27 @@ li {
 }
 p {
   font-size: 20px;
+}
+.check-input-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+
+  gap: 10px;
+}
+.btn-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+.edit-input {
+  padding: 10px;
+  border: 1px solid lightcoral;
+  font-size: 18px;
 }
