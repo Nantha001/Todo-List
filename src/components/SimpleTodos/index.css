@@ -27,7 +27,7 @@ ul {
   outline: none;
   border: 2px solid lightcoral;
 }
-form{
+form {
   display: flex;
   flex-direction: row;
   align-items: center;
